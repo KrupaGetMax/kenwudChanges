@@ -1,0 +1,37 @@
+@keyframes slideBackground {
+  0% {
+    background-image: url('../../assets/home1.jpg');
+    opacity: 1;
+  }
+  33% {
+    background-image: url('../../assets/hero.jpg');
+    opacity: 1;
+  }
+  66% {
+    background-image: url('../../assets/home2.jpg');
+    opacity: 1;
+  }
+  100% {
+    background-image: url('../../assets/hero.jpg');
+    opacity: 1;
+  }
+}
+
+.hero-bg {
+  animation: slideBackground 30s ease-in-out infinite;
+  background-size: cover;        /* Ensures the image covers the full area */
+  background-repeat: no-repeat;  /* Prevents tiling of images */
+  background-position: center;   /* Keeps the image centered */
+  background-attachment: fixed;  /* Optional: removes fixed background scrolling for smoother effect */
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+
+    
+
+
+
+
+
+  
